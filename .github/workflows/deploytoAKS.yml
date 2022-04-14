@@ -54,7 +54,14 @@ jobs:
       run: |
           az account show
           az group list
-          pwd        
+          pwd     
+    - name:  set cotext
+      uses: azure/aks-set-context@v2.0
+      with:
+       resource-group: "samarth-resources-msdn"
+       cluster-name: "test-ingress"
+
+
     # - name: Azure Kubernetes set context
     #   uses: Azure/aks-set-context@v1
     #   with:
