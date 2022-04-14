@@ -81,9 +81,5 @@ jobs:
   #       # Name of a docker-registry secret that has already been set up within the cluster. Each of these secret names are added under imagePullSecrets field for the workloads found in the input manifest files
   #       imagepullsecrets: docker-image-pull-secret
   #       # deploy/promote/reject
-  #       action: deploy  
-    
-
-    #test
-        
+  #       action: deploy   
     
